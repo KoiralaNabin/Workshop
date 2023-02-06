@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bikes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <div id="background">
+            <div id="navbar">
+        </div>
+        <div id="nav">
+                <h1 id="logo">Mero Auto Workshop <p id="note">Authorised service point of YAMAHA</p></h1>
+            </div>
+             <div id="menunav">
+                <ul>
+                    <li><a href="mero.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="bikes.html">BIKES</a></li>
+                    <li><a href="scooter.html">SCOOTERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <input id="srch"type="search"name=" " placeholder="Type To Text">
+                    <a href="#"><button id="btn">Search</button></a>
+                </ul>
+            </div>
+             <div id="description">
+          </div>
+            </div>
+            <div id="container">
+              <div id="body_header">
+                <h1>Appointment Request Form</h1>
+                <p>Make your appointments more easier</p>
+              </div>
+              <form method="post">
+                <fieldset>
+                  <legend><span class="number">1</span>Your basic details</legend>
+                  <label for="name">Name*:</label>
+                  <input type="text" id="name" name="user_name" required pattern="[a-zA-Z0-9]+">
+          
+                  <label for="mail">Email*:</label>
+                  <input type="email" id="mail" name="user_email" required>
+          
+                  <label for="tel">Contact Num:</label>
+                  <input type="tel" id="tel"name="user_num">
+          
+                  <label for="Address">Address:</label>
+                  <input type="text" id="Address" name="Address" pattern="[a-zA-Z0-9]+">
+                </fieldset>
+                <fieldset>
+                  <legend><span class="number">2</span>Appointment Details</legend>
+                  <label for="appointment_for">Appointment for*:</label>
+                  <select id="appointment_for" name="appointment_for" required>
+                    <option value="servicing">Servicing</option>
+                    <option value="purchase">purchase a parts</option>
+                    <option value="purchase">purchase a bike</option>
+                    <option value="meeting">Meeting</option>
+                    <option value="business">Business</option>
+                  </select>
+                  <label for="appointment_description">Appointment Description:</label>
+                  <textarea id="appointment_description" name="appointment_description"></textarea>
+                  <label for="date">Date*:</label>
+                  <input type="date" name="date" value="" required></input>
+                </fieldset>
+                <button type="submit" id="butn">Request For Appointment</button>
+              </form>
+            </div>
+            </div>
+          </div>
+    </body>
+</html>
+
+
+
+
